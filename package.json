@@ -1,12 +1,12 @@
 {
-    "name": "@bbc/nightwatch-vrt",
+    "name": "@magnition/nightwatch-vrt",
     "version": "1.1.1",
-    "description": "Nightwatch Visual Regression Testing tools",
+    "description": "Nightwatch Visual Regression Testing tools (forked from BBC version)",
     "license": "MIT",
-    "homepage": "https://github.com/bbc/nightwatch-vrt",
+    "homepage": "https://github.com/kymunr/nightwatch-vrt",
     "repository": {
         "type": "git",
-        "url": "https://github.com/bbc/nightwatch-vrt.git"
+        "url": "https://github.com/kymunr/nightwatch-vrt.git"
     },
     "types": "index",
     "scripts": {
@@ -37,13 +37,18 @@
         "lodash": "^4.17.4"
     },
     "devDependencies": {
+        "assert": "^2.0.0",
+        "cors": "^2.8.5",
         "eslint": "^4.3.0",
         "eslint-config-crunch": "^1.1.3",
         "eslint-plugin-react": "^7.3.0",
+        "express": "^4.17.1",
         "http-server": "^0.10.0",
         "jest": "^20.0.4",
         "nightwatch": "^1.0.16",
+        "node-cmd": "^3.0.0",
         "npm-run-all": "^4.0.2",
+        "open": "^6.3.0",
         "phantomjs-prebuilt": "^2.1.15",
         "rimraf": "^2.6.1",
         "selenium-standalone": "^6.7.0"
