@@ -1,7 +1,7 @@
 {
     "name": "@magnition/nightwatch-vrt",
     "version": "1.1.1",
-    "description": "Nightwatch Visual Regression Testing tools",
+    "description": "Nightwatch Visual Regression Testing tools (forked from BBC version)",
     "license": "MIT",
     "homepage": "https://github.com/kymunr/nightwatch-vrt",
     "repository": {
